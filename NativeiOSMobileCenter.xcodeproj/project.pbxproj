@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D38D06D1DF8939D0039A47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38D06C1DF8939D0039A47A /* main.m */; };
+		7D38D0701DF8939D0039A47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38D06F1DF8939D0039A47A /* AppDelegate.m */; };
+		7D38D0731DF8939D0039A47A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38D0721DF8939D0039A47A /* ViewController.m */; };
+		7D38D0761DF8939D0039A47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D38D0741DF8939D0039A47A /* Main.storyboard */; };
+		7D38D0781DF8939D0039A47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D38D0771DF8939D0039A47A /* Assets.xcassets */; };
+		7D38D07B1DF8939D0039A47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D38D0791DF8939D0039A47A /* LaunchScreen.storyboard */; };
+		7D38D0861DF8939E0039A47A /* NativeiOSMobileCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38D0851DF8939E0039A47A /* NativeiOSMobileCenterTests.m */; };
+		7D38D0911DF8939E0039A47A /* NativeiOSMobileCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38D0901DF8939E0039A47A /* NativeiOSMobileCenterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D38D0821DF8939E0039A47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D38D0601DF8939D0039A47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D38D0671DF8939D0039A47A;
+			remoteInfo = NativeiOSMobileCenter;
+		};
+		7D38D08D1DF8939E0039A47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D38D0601DF8939D0039A47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D38D0671DF8939D0039A47A;
+			remoteInfo = NativeiOSMobileCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D38D0681DF8939D0039A47A /* NativeiOSMobileCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeiOSMobileCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D38D06C1DF8939D0039A47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D38D06E1DF8939D0039A47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D38D06F1DF8939D0039A47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D38D0711DF8939D0039A47A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D38D0721DF8939D0039A47A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D38D0751DF8939D0039A47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D38D0771DF8939D0039A47A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D38D07A1DF8939D0039A47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D38D07C1DF8939D0039A47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D38D0811DF8939E0039A47A /* NativeiOSMobileCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeiOSMobileCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D38D0851DF8939E0039A47A /* NativeiOSMobileCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeiOSMobileCenterTests.m; sourceTree = "<group>"; };
+		7D38D0871DF8939E0039A47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D38D08C1DF8939E0039A47A /* NativeiOSMobileCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeiOSMobileCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D38D0901DF8939E0039A47A /* NativeiOSMobileCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeiOSMobileCenterUITests.m; sourceTree = "<group>"; };
+		7D38D0921DF8939E0039A47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D38D0651DF8939D0039A47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D38D07E1DF8939E0039A47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D38D0891DF8939E0039A47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D38D05F1DF8939D0039A47A = {
+			isa = PBXGroup;
+			children = (
+				7D38D06A1DF8939D0039A47A /* NativeiOSMobileCenter */,
+				7D38D0841DF8939E0039A47A /* NativeiOSMobileCenterTests */,
+				7D38D08F1DF8939E0039A47A /* NativeiOSMobileCenterUITests */,
+				7D38D0691DF8939D0039A47A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D38D0691DF8939D0039A47A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D38D0681DF8939D0039A47A /* NativeiOSMobileCenter.app */,
+				7D38D0811DF8939E0039A47A /* NativeiOSMobileCenterTests.xctest */,
+				7D38D08C1DF8939E0039A47A /* NativeiOSMobileCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D38D06A1DF8939D0039A47A /* NativeiOSMobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				7D38D06E1DF8939D0039A47A /* AppDelegate.h */,
+				7D38D06F1DF8939D0039A47A /* AppDelegate.m */,
+				7D38D0711DF8939D0039A47A /* ViewController.h */,
+				7D38D0721DF8939D0039A47A /* ViewController.m */,
+				7D38D0741DF8939D0039A47A /* Main.storyboard */,
+				7D38D0771DF8939D0039A47A /* Assets.xcassets */,
+				7D38D0791DF8939D0039A47A /* LaunchScreen.storyboard */,
+				7D38D07C1DF8939D0039A47A /* Info.plist */,
+				7D38D06B1DF8939D0039A47A /* Supporting Files */,
+			);
+			path = NativeiOSMobileCenter;
+			sourceTree = "<group>";
+		};
+		7D38D06B1DF8939D0039A47A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D38D06C1DF8939D0039A47A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D38D0841DF8939E0039A47A /* NativeiOSMobileCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D38D0851DF8939E0039A47A /* NativeiOSMobileCenterTests.m */,
+				7D38D0871DF8939E0039A47A /* Info.plist */,
+			);
+			path = NativeiOSMobileCenterTests;
+			sourceTree = "<group>";
+		};
+		7D38D08F1DF8939E0039A47A /* NativeiOSMobileCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D38D0901DF8939E0039A47A /* NativeiOSMobileCenterUITests.m */,
+				7D38D0921DF8939E0039A47A /* Info.plist */,
+			);
+			path = NativeiOSMobileCenterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D38D0671DF8939D0039A47A /* NativeiOSMobileCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D38D0951DF8939E0039A47A /* Build configuration list for PBXNativeTarget "NativeiOSMobileCenter" */;
+			buildPhases = (
+				7D38D0641DF8939D0039A47A /* Sources */,
+				7D38D0651DF8939D0039A47A /* Frameworks */,
+				7D38D0661DF8939D0039A47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeiOSMobileCenter;
+			productName = NativeiOSMobileCenter;
+			productReference = 7D38D0681DF8939D0039A47A /* NativeiOSMobileCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D38D0801DF8939E0039A47A /* NativeiOSMobileCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D38D0981DF8939E0039A47A /* Build configuration list for PBXNativeTarget "NativeiOSMobileCenterTests" */;
+			buildPhases = (
+				7D38D07D1DF8939E0039A47A /* Sources */,
+				7D38D07E1DF8939E0039A47A /* Frameworks */,
+				7D38D07F1DF8939E0039A47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D38D0831DF8939E0039A47A /* PBXTargetDependency */,
+			);
+			name = NativeiOSMobileCenterTests;
+			productName = NativeiOSMobileCenterTests;
+			productReference = 7D38D0811DF8939E0039A47A /* NativeiOSMobileCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D38D08B1DF8939E0039A47A /* NativeiOSMobileCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D38D09B1DF8939E0039A47A /* Build configuration list for PBXNativeTarget "NativeiOSMobileCenterUITests" */;
+			buildPhases = (
+				7D38D0881DF8939E0039A47A /* Sources */,
+				7D38D0891DF8939E0039A47A /* Frameworks */,
+				7D38D08A1DF8939E0039A47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D38D08E1DF8939E0039A47A /* PBXTargetDependency */,
+			);
+			name = NativeiOSMobileCenterUITests;
+			productName = NativeiOSMobileCenterUITests;
+			productReference = 7D38D08C1DF8939E0039A47A /* NativeiOSMobileCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D38D0601DF8939D0039A47A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Xamarin Demo";
+				TargetAttributes = {
+					7D38D0671DF8939D0039A47A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M33BRD6XX4;
+						ProvisioningStyle = Automatic;
+					};
+					7D38D0801DF8939E0039A47A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M33BRD6XX4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D38D0671DF8939D0039A47A;
+					};
+					7D38D08B1DF8939E0039A47A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M33BRD6XX4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D38D0671DF8939D0039A47A;
+					};
+				};
+			};
+			buildConfigurationList = 7D38D0631DF8939D0039A47A /* Build configuration list for PBXProject "NativeiOSMobileCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D38D05F1DF8939D0039A47A;
+			productRefGroup = 7D38D0691DF8939D0039A47A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D38D0671DF8939D0039A47A /* NativeiOSMobileCenter */,
+				7D38D0801DF8939E0039A47A /* NativeiOSMobileCenterTests */,
+				7D38D08B1DF8939E0039A47A /* NativeiOSMobileCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D38D0661DF8939D0039A47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D38D07B1DF8939D0039A47A /* LaunchScreen.storyboard in Resources */,
+				7D38D0781DF8939D0039A47A /* Assets.xcassets in Resources */,
+				7D38D0761DF8939D0039A47A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D38D07F1DF8939E0039A47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D38D08A1DF8939E0039A47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D38D0641DF8939D0039A47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D38D0731DF8939D0039A47A /* ViewController.m in Sources */,
+				7D38D0701DF8939D0039A47A /* AppDelegate.m in Sources */,
+				7D38D06D1DF8939D0039A47A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D38D07D1DF8939E0039A47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D38D0861DF8939E0039A47A /* NativeiOSMobileCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D38D0881DF8939E0039A47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D38D0911DF8939E0039A47A /* NativeiOSMobileCenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D38D0831DF8939E0039A47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D38D0671DF8939D0039A47A /* NativeiOSMobileCenter */;
+			targetProxy = 7D38D0821DF8939E0039A47A /* PBXContainerItemProxy */;
+		};
+		7D38D08E1DF8939E0039A47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D38D0671DF8939D0039A47A /* NativeiOSMobileCenter */;
+			targetProxy = 7D38D08D1DF8939E0039A47A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D38D0741DF8939D0039A47A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D38D0751DF8939D0039A47A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D38D0791DF8939D0039A47A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D38D07A1DF8939D0039A47A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D38D0931DF8939E0039A47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D38D0941DF8939E0039A47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D38D0961DF8939E0039A47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M33BRD6XX4;
+				INFOPLIST_FILE = NativeiOSMobileCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin..NativeiOSMobileCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D38D0971DF8939E0039A47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M33BRD6XX4;
+				INFOPLIST_FILE = NativeiOSMobileCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin..NativeiOSMobileCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D38D0991DF8939E0039A47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M33BRD6XX4;
+				INFOPLIST_FILE = NativeiOSMobileCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin..NativeiOSMobileCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeiOSMobileCenter.app/NativeiOSMobileCenter";
+			};
+			name = Debug;
+		};
+		7D38D09A1DF8939E0039A47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M33BRD6XX4;
+				INFOPLIST_FILE = NativeiOSMobileCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin..NativeiOSMobileCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeiOSMobileCenter.app/NativeiOSMobileCenter";
+			};
+			name = Release;
+		};
+		7D38D09C1DF8939E0039A47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M33BRD6XX4;
+				INFOPLIST_FILE = NativeiOSMobileCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin..NativeiOSMobileCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NativeiOSMobileCenter;
+			};
+			name = Debug;
+		};
+		7D38D09D1DF8939E0039A47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M33BRD6XX4;
+				INFOPLIST_FILE = NativeiOSMobileCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin..NativeiOSMobileCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NativeiOSMobileCenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D38D0631DF8939D0039A47A /* Build configuration list for PBXProject "NativeiOSMobileCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D38D0931DF8939E0039A47A /* Debug */,
+				7D38D0941DF8939E0039A47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D38D0951DF8939E0039A47A /* Build configuration list for PBXNativeTarget "NativeiOSMobileCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D38D0961DF8939E0039A47A /* Debug */,
+				7D38D0971DF8939E0039A47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D38D0981DF8939E0039A47A /* Build configuration list for PBXNativeTarget "NativeiOSMobileCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D38D0991DF8939E0039A47A /* Debug */,
+				7D38D09A1DF8939E0039A47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D38D09B1DF8939E0039A47A /* Build configuration list for PBXNativeTarget "NativeiOSMobileCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D38D09C1DF8939E0039A47A /* Debug */,
+				7D38D09D1DF8939E0039A47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D38D0601DF8939D0039A47A /* Project object */;
+}
